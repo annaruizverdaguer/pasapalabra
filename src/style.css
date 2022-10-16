@@ -1,0 +1,127 @@
+.container {
+  background-color: aquamarine;
+  display: block;
+  margin: 30px auto;
+  padding: 50px;
+  width: 1000px;
+  text-align: center;
+}
+.inici-joc,
+.reinici-joc {
+  margin: 0px auto;
+  padding: 10px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  box-shadow: 4px 4px 7px rgba(166, 209, 230, 0.1);
+  transition: all 200ms ease;
+}
+.inici-joc:hover,
+.reinici-joc:hover {
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px 7px rgba(166, 209, 230, 0.1);
+}
+.rosco {
+  margin: 50px auto;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+.time-counter {
+  font-size: large;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.success-answers-counter {
+  font-size: 30px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  line-height: 77px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 265px;
+  left: 150px;
+}
+.fail-answers-counter {
+  font-size: 30px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  line-height: 77px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 265px;
+  left: 370px;
+}
+.lletra {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 275px;
+  left: 275px;
+}
+.answer-input {
+  margin: 15px auto;
+  width: 70%;
+  text-align: center;
+}
+.boto-input {
+  background-color: lightseagreen;
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+}
+.boto-pasapalabra {
+  background-color: lightskyblue;
+  border: 2px solid black;
+  color: black;
+}
+.ready {
+  background-color: cornflowerblue;
+}
+
+.active {
+  background-color: white;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.fail {
+  background-color: lightcoral;
+}
+
+.results {
+  font-size: 19px;
+  border: 2px solid black;
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 240px;
+  left: 150px;
+}
